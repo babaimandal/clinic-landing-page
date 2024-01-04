@@ -36,14 +36,20 @@ a{
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* ********* >>>>> HEADER >>>>>> ******** */
+header {
+    padding-block: 17px;
+}
 header .header-wrapper .header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
+.logo-block {
+    width: 200px;
+}
 header .header-wrapper .header-flex .logo-block a img {
-    width: 85px;
+    width: 100%;
 }
 header .header-wrapper .header-flex .menu-block {
     display: flex;
@@ -182,8 +188,8 @@ header .header-wrapper .header-flex .menu-block .get-a-quote .mobile-menu{
 .banner-wrapper .banner .banner-hero-text button:active{
     transform: scale(0.96);
 }
-.banner-wrapper .banner .banner-hero-text  a{
-    background-color: var(--secondary-color);
+.banner-wrapper .banner .banner-hero-text  a {
+    background-color: #0029c7;
     padding-inline: 20px;
     padding-block: 10px;
     font-family: 'Roboto', sans-serif;
@@ -1355,8 +1361,8 @@ header .header-wrapper .header-flex .menu-block i{
 .about-section-wrapper .about-us-text-content .profile .profile-name h3 {
     font-size: 19px;
 }
-header{
-    background-color: var(--background-color);
+header {
+    background-color: #040e2b;
 }
 header .header-wrapper .header-flex .menu-block {
     padding-block-end: 17px;
@@ -1454,7 +1460,10 @@ header .header-wrapper .header-flex .menu-block nav ul {
     background-color: #162734;
     padding-block: 17px;
 }
-
+.logo-block {
+    width: 100%;
+    text-align: center;
+}
 
 
 
@@ -1869,7 +1878,7 @@ footer{
     bottom: -24px;
 }
 header .header-wrapper .header-flex .logo-block a img {
-    width: 76px;
+    width: 196px;
 }
 .services-wrapper {
     margin-block-start: 16px;
